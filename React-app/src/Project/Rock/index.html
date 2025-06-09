@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Rock Paper Scissor</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="java.js"></script>
+    </head>
+    <body>
+       <div class="container">
+            <Header>
+                <h1>
+                    Rock Paper Scissor
+                </h1>
+                <a href="/projects.html"><span><h1>&#8617;</h1></span></a>
+            </Header>
+            <Main> 
+                <div class="btn-box">
+                    <button id="Rock" class="btn1" onclick="playGame('Rock')">
+                        <img class="img" src='picture/Rock-emoji.png' />
+                    </button>
+                    <button id="Paper" class="btn1" onclick="playGame('Paper')">
+                        <img class="img" src='picture/Paper-emoji.png' />
+                    </button>
+                    <button id="Scissor" class="btn1" onclick="playGame('Scissor')">
+                       <img class="img" src='picture/Scissor-emoji.png' />
+                    </button>
+                </div>
+                <div class="description">
+                    <p id="js-result" onshow="" class="font"></p>
+                    <p id="js-score" onshow="updateScore();" class= font"></p>
+                    <div class="btn-box2">
+                        <button class="btn1" onclick="removeScore()">Remove Score</button>
+                        <button class="btn1" onclick="autoPlay()">Auto play</button>
+                    </div>
+                </div>
+            </Main>     
+            <footer>
+                <h3>Made by @lil_fitse</h3>
+            </footer>
+       </div>
+    </body>
+</html>
+
+
+
+
+
+

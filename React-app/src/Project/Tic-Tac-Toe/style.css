@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  user-select: none;
+
+  color: white;
+}
+
+main {
+  
+  background: #0a0519;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#header {
+  display: flex;
+  width: 235px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#header .player {
+  background: #17122a;
+  width: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 12px;
+  border: solid 4px #17122a;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+#header .player:hover {
+  border: solid 4px #2a2343;
+}
+
+#header .player-active {
+  opacity: 1;
+  border: solid 4px #2a2343;
+}
+
+#header #xPlayerDisplay {
+  color: #1892ea;
+}
+
+#header #oPlayerDisplay {
+  color: #a737ff;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  grid-template-rows: repeat(3, 70px);
+  gap: 12px;
+}
+
+.cell {
+  background: #17122a;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s background;
+}
+
+.cell:hover {
+  background: #2a2343;
+}
+
+#restartBtn {
+  margin: 30px 1px;
+  padding: 8px;
+  width: 235px;
+  background: #17122a;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s background;
+  visibility: hidden;
+}
+
+#restartBtn:hover {
+  background: #2a2343;
+} 
+
+footer h3 {
+  color: #1892ea;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

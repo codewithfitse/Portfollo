@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  background: url(picture/Baackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 1px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  z-index: 1;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+} 
+
+Header {
+  width: auto;
+  padding: 10px 1px;
+  margin-bottom: 20px;
+}
+
+Header > h1{
+ font-size: 100px;
+ background: transparent;
+}
+
+span h1 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+    top: 10px;
+    right: 10px;
+  font-size: 70px;
+  color: #fff;
+  z-index: 1;
+}
+
+Main {
+  width: auto;
+}
+
+.btn-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.btn1 {background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)}
+.btn1 {
+  margin: 15px;
+  padding: 15px 15px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: block;
+  font-size: 70px;
+ }
+
+.btn1:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn1:active {
+  scale: 0.9;
+}
+
+.description {
+  margin: 20px 1px;
+  padding: 20px 50px ;
+  font-size: 25px;
+}
+
+.btn-box2 > .btn1 {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 0 0 10px #eee;
+}
+
+.font {
+  width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+  font-size: 28px;
+}
+
+.img {
+  width: 80px;
+  height: 80px;
+}
+
+.btn-box2 {
+  padding-top: 10PX;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
