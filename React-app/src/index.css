@@ -35,7 +35,7 @@ body {
     @apply w-[40px] h-[40px] rounded-full;
   }
   .background {  
-    @apply min-h-screen bg-gradient-to-br from-[#0f051d] via-[#400d59] to-[#643e9a];
+    @apply min-h-screen bg-gradient-to-br from-[#0f051d] via-[#2a043d] to-[#643e9a];
   }
 
 /* .loader1 {
