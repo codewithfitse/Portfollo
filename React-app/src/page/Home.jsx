@@ -14,7 +14,7 @@ const Home = () => {
           </h2>
           <p className="w-[500px] text-[18px]">
             I am professionally educated developer in the world. i have worked
-            for many years in artificial intelligence & Ethiopian cyberspace.
+            for many years in artificial intelligence & Ethiopian cyberspace..
           </p>
           <div className="flex my-6 space-x-3">
             <div className="icon-box">
