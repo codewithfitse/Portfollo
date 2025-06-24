@@ -18,10 +18,12 @@ const Home = () => {
           </p>
           <div className="flex my-6 space-x-3">
             <div className="icon-box">
-              <img src="/bxl-facebook.svg" className="icon" alt="icon" />
+              <a href="https://github.com/codewithfitse">
+                <img src="/bxl-linkedin.svg" className="icon" alt="ln" />
+              </a>
             </div>
             <div className="icon-box">
-              <a href="https://www.instagram.com/codewithfitse?igsh=MXdlZW9lMzRpb205dQ==">
+              <a href="https://WWW.linkedin.com/in/fitsum-zerihun-89aab02a9">
                 <img src="/bxl-linkedin.svg" className="icon" alt="ln" />
               </a>
             </div>
@@ -35,12 +37,12 @@ const Home = () => {
               </a>
             </div>
             <div className="icon-box">
-              <a href="https://www.instagram.com/codewithfitse?igsh=MXdlZW9lMzRpb205dQ==">
+              <a href="https://www.tiktok.com/@codewithfitse?_t=ZM-8x4IWJnVxp8&_r=1">
                 <img src="/bxl-tiktok.svg" className="icon" alt="Git" />
               </a>
             </div>
             <div className="icon-box">
-              <a href="https://www.instagram.com/codewithfitse?igsh=MXdlZW9lMzRpb205dQ==">
+              <a href="https://x.com/lil_fitse?t=cmxfDqpAWbK_l75aeqygzg&s=09">
                 <img src="/bxl-twitter.svg" className="icon" alt="X" />
               </a>
             </div>
