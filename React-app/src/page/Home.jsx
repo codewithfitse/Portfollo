@@ -48,7 +48,7 @@ const Home = () => {
             <button className="btn">Download Coures</button>
           </div>
         </div>
-        <div className="w-full h-auto items-center justify-items-center">
+        <div className="w-fit h-auto items-center justify-items-center">
           <img src="/demo.png" className="w-full h-full" alt="Profile" />
         </div>
       </div>
