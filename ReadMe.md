@@ -24,6 +24,8 @@ Todo App: Dive into React state with a classic task manager.
 
 Rock-Paper-Scissors (RPS): A playful mini-game—because building web apps should also be a game!
 
+Expense tracker list to track daily list: its gonna be used on day to day life!
+
 Easily Extendable: Want more? Just drop a new component in /src/page, hook it up in App.jsx, and watch the magic.
 
 🔍 Under the Hood
@@ -36,7 +38,7 @@ Easily Extendable: Want more? Just drop a new component in /src/page, hook it up
 
 Clone it
 
-git clone https://github.com/yourusername/react-fitsum-portfolio.git cd react-fitsum-portfolio
+git clone https://github.com/codewithfitse/Portfollo.git
 
 Install Dependencies
 
@@ -50,10 +52,12 @@ npm start
 or yarn start
 Build for Production
 
+cd React-app
+
 npm run build
 
 or yarn build
-Open http://localhost:3000 and bask in the glory of your new playground.
+Open http://localhost:5173 and bask in the glory of your new playground.
 
 ✨ Customization & Contributions
 
