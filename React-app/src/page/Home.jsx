@@ -19,7 +19,7 @@ const Home = () => {
           <div className="flex my-6 space-x-3">
             <div className="icon-box">
               <a href="https://github.com/codewithfitse">
-                <img src="/bxl-linkedin.svg" className="icon" alt="ln" />
+                <i className="fa fa-github !text-[36px]"></i>
               </a>
             </div>
             <div className="icon-box">
