@@ -54,7 +54,7 @@ const Login = () => {
             <input
               type="email"
               className="w-full mt-1 px-3 py-2 bg-zinc-800 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-zinc-500"
-              placeholder="m@example.com"
+              placeholder="fitse@example.com"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
             />
