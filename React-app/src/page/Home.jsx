@@ -32,7 +32,7 @@ const Home = () => {
               <img src="/bxl-tiktok.svg" className="icon" alt="icon" />
             </div>
             <div className="icon-box">
-              <img src="/bxl-twitter.svg" className="icon" alt="icon" />
+              <img src="/bxl-twitter.svg" className="icon " alt="icon" />
             </div>
           </div>
           <div className="wrapper">
