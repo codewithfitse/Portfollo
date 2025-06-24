@@ -35,7 +35,7 @@ const Home = () => {
             </div>
             <div className="icon-box">
               <a href="https://www.tiktok.com/@codewithfitse?_t=ZM-8x4IWJnVxp8&_r=1">
-                <img src="/bxl-tiktok.svg" className="icon" alt="Git" />
+                <img src="/bxl-tiktok.svg " className="icon" alt="Git" />
               </a>
             </div>
             <div className="icon-box">
