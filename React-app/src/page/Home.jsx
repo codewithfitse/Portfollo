@@ -51,7 +51,7 @@ const Home = () => {
         <div className="w-auto h-auto items-center justify-items-center">
           <img
             src="/portfolioHero.jpg"
-            className="w-[300px] h-[300px]"
+            className="w-full h-full"
             alt="Profile"
           />
         </div>
