@@ -21,7 +21,9 @@ const Home = () => {
               <img src="/bxl-facebook.svg" className="icon" alt="icon" />
             </div>
             <div className="icon-box">
-              <img src="/bxl-instagram-alt.svg" className="icon" alt="icon" />
+              <a href="https://www.instagram.com/codewithfitse?igsh=MXdlZW9lMzRpb205dQ==">
+                <img src="/bxl-instagram-alt.svg" className="icon" alt="icon" />
+              </a>
             </div>
             <div className="icon-box">
               <img src="/bxl-linkedin.svg" className="icon" alt="icon" />
