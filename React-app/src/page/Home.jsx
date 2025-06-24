@@ -22,17 +22,27 @@ const Home = () => {
             </div>
             <div className="icon-box">
               <a href="https://www.instagram.com/codewithfitse?igsh=MXdlZW9lMzRpb205dQ==">
-                <img src="/bxl-instagram-alt.svg" className="icon" alt="icon" />
+                <img src="/bxl-linkedin.svg" className="icon" alt="ln" />
               </a>
             </div>
             <div className="icon-box">
-              <img src="/bxl-linkedin.svg" className="icon" alt="icon" />
+              <a href="https://www.instagram.com/codewithfitse?igsh=MXdlZW9lMzRpb205dQ==">
+                <img
+                  src="/bxl-instagram-alt.svg"
+                  className="icon"
+                  alt="insta"
+                />
+              </a>
             </div>
             <div className="icon-box">
-              <img src="/bxl-tiktok.svg" className="icon" alt="icon" />
+              <a href="https://www.instagram.com/codewithfitse?igsh=MXdlZW9lMzRpb205dQ==">
+                <img src="/bxl-tiktok.svg" className="icon" alt="Git" />
+              </a>
             </div>
             <div className="icon-box">
-              <img src="/bxl-twitter.svg" className="icon " alt="icon" />
+              <a href="https://www.instagram.com/codewithfitse?igsh=MXdlZW9lMzRpb205dQ==">
+                <img src="/bxl-twitter.svg" className="icon" alt="X" />
+              </a>
             </div>
           </div>
           <div className="wrapper">
