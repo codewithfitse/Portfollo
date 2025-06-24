@@ -19,21 +19,18 @@ const Home = () => {
           <div className="flex my-6 space-x-3">
             <div className="icon-box">
               <a href="https://github.com/codewithfitse">
-                <i className="fa fa-github !text-[36px]"></i>
+                <i className="fa fa-github !text-[26px] text-black bg-white rounded-full p-2 shadow-[0_0_10px_2px_rgba(0,0,0,0.3)]"></i>
               </a>
             </div>
             <div className="icon-box">
-              <a href="https://WWW.linkedin.com/in/fitsum-zerihun-89aab02a9">
-                <img src="/bxl-linkedin.svg" className="icon" alt="ln" />
+              <a href="WWW.linkedin.com/in/fitsum-zerihun-89aab02a9">
+                <i className="fa fa-linkedin !text-[26px] text-blue-600"></i>
               </a>
             </div>
+
             <div className="icon-box">
               <a href="https://www.instagram.com/codewithfitse?igsh=MXdlZW9lMzRpb205dQ==">
-                <img
-                  src="/bxl-instagram-alt.svg"
-                  className="icon"
-                  alt="insta"
-                />
+                <i className="fa fa-instagram !text-[28px] text-red-600"></i>
               </a>
             </div>
             <div className="icon-box">
@@ -43,7 +40,7 @@ const Home = () => {
             </div>
             <div className="icon-box">
               <a href="https://x.com/lil_fitse?t=cmxfDqpAWbK_l75aeqygzg&s=09">
-                <img src="/bxl-twitter.svg" className="icon" alt="X" />
+                <i className="fa fa-twitter !text-[26px] text-blue-600"></i>
               </a>
             </div>
           </div>
