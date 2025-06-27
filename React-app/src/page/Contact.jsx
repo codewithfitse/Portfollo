@@ -48,7 +48,7 @@ useEffect(() =>{
 
 
   return (
-      <section className='w-full h-[100vh]'>
+      <section className='w-full h-[100vh] background'>
     <Header />
     <div className="flex flex-col items-center">  
         <h1 className='my-[30px] text-[56px] font-bold'>Contact <span className='text-[#0ef]'>Me</span></h1>
