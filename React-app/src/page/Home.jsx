@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section className="w-full h-[100vh] background">
       <Header />
-      <div className="flex flex-row sd:flex-wrap-reverse justify-between items-center w-auto h-fit px-[30px] pt-16">
+      <div className="flex flex-row mb-20 sd:flex-wrap-reverse justify-between items-center w-auto h-fit px-[30px] pt-16">
         <div className="w-auto h-full px-10">
           <h2 className="text-[32px] font-bold">Hello, it's me</h2>
           <h1 className="text-[56px] font-bold">Fitsum zerihun</h1>
