@@ -3,13 +3,13 @@ import { useDebounce } from "react-use";
 import Search from "./components/Search.jsx";
 import Spinner from "./components/spinner.jsx";
 import MovieCard from "./components/MovieCard.jsx";
-//import { updateSearchCount } from "./appwrite.js";
 
 const API_BASE_URL = "https://api.themoviedb.org/3";
 
-const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
-console.log(API_KEY);
-//const API_KEY ='eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmZmEyM2YyODRjZTM4NzAzMzc3Y2Q2YjI0M2ZhYjYwNSIsIm5iZiI6MTczODY5MTg5MS4zNTY5OTk5LCJzdWIiOiI2N2EyNTUzMzdlYmIwNjE0ZmYyNmMyY2EiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.bcElh67ivfozmUJYM9cRoEnvomH_GX7IaqQW5vt2Teo';
+//const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+//console.log(API_KEY);
+const API_KEY =
+  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmZmEyM2YyODRjZTM4NzAzMzc3Y2Q2YjI0M2ZhYjYwNSIsIm5iZiI6MTczODY5MTg5MS4zNTY5OTk5LCJzdWIiOiI2N2EyNTUzMzdlYmIwNjE0ZmYyNmMyY2EiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.bcElh67ivfozmUJYM9cRoEnvomH_GX7IaqQW5vt2Teo";
 
 const API_OPTIONS = {
   method: "GET",
@@ -19,7 +19,7 @@ const API_OPTIONS = {
   },
 };
 
-export const Movie = () => {
+const Movie = () => {
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -65,25 +65,9 @@ export const Movie = () => {
     }
   };
 
-  // const loadTrendingMovies = async () => {
-  //   try {
-  //     const movies = await getTrendingMovies();
-
-  //     setTrendingMovies(movies);
-  //   } catch (error) {
-  //     console.log(error)
-  //   }
-  // }
-
   useEffect(() => {
     fetchMovies(debouncedSearchTerm);
   }, [debouncedSearchTerm]);
-
-  // useEffect(() => {
-  //   loadTrendingMovies();
-  // }, []);
-
-  // console.log(trendingMovies);
 
   return (
     <main>
@@ -94,24 +78,12 @@ export const Movie = () => {
           <img src="./hero.png" alt="Hero Banner" />
           <h1>
             Find <span className={"text-gradient"}>Movies </span>
-            With lil_fitse.
+            With lil_fitse
             <br /> without the Hassle
           </h1>
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         </header>
 
-        {/* {trendingMovies.length > 0 && (
-        <section className="trending">
-          <h2>Trending Movies</h2>
-          <ul>
-            {trendingMovies.map((movie, index) => ( 
-              <li key={movie.id}>
-                <p>{index + 1}</p>
-              </li>
-              ))}
-          </ul>
-        </section>
-      )} */}
         <section className="all-movies">
           <h1>{searchTerm}</h1>
           <h2>All Movies</h2>
@@ -124,7 +96,6 @@ export const Movie = () => {
             <ul>
               {movieList.map((movie) => (
                 <MovieCard key={movie.id} movie={movie} />
-                // <p key={movie.id} className="text-white">{movie.title}</p>
               ))}
             </ul>
           ) : (
@@ -135,3 +106,5 @@ export const Movie = () => {
     </main>
   );
 };
+
+export default Movie;
