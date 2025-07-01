@@ -48,7 +48,7 @@ const router = createBrowserRouter([
     element: <RPS />,
   },
   {
-    path: "/Movie ",
+    path: "/Movie",
     element: <Movie />,
   },
 ]);
