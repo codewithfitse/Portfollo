@@ -8,6 +8,7 @@ import { Head } from "./page/Head";
 import { Todo } from "./page/Todo";
 import { Project } from "./page/Project";
 import { RPS } from "./page/RPS";
+import Movie from "./page/Movie";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
   {
     path: "/RPS",
     element: <RPS />,
+  },
+  {
+    path: "/Movie ",
+    element: <Movie />,
   },
 ]);
 
