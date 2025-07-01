@@ -25,7 +25,7 @@ export const Project = () => {
             </Link>
           </div>
           <div className="w-full h-fit flex flex-col items-center mt-10 p-5 bg-[#323946] border-2 border-[#1f242d] hover:border-[#0ef] hover:transform-scale(1.02) rounded-2xl">
-            <h1 className="text-[40px] font-bold mb-2">Movie Fetching</h1>
+            <h1 className="text-[40px] font-bold mb-2">Movie Fetching!</h1>
             <Link to={"/Movie"}>
               <button className="btn">Read More</button>
             </Link>

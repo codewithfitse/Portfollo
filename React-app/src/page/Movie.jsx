@@ -94,7 +94,7 @@ export const Movie = () => {
           <img src="./hero.png" alt="Hero Banner" />
           <h1>
             Find <span className={"text-gradient"}>Movies </span>
-            With lil_fitse
+            With lil_fitse.
             <br /> without the Hassle
           </h1>
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
