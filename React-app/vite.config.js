@@ -11,4 +11,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
     },
   },
+  build: {
+    rollupOptions: {
+      external: ["CtrlF"], // <-- this line tells Vite to ignore bundling CtrlF
+    },
+  },
 });
