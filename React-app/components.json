@@ -1,0 +1,11 @@
+{
+  "componentPath": "./src/components",
+  "jsx": true,
+  "tailwind": {
+    "config": "tailwind.config.js",
+    "css": "src/index.css"
+  },
+  "aliases": {
+    "@": "./src"
+  }
+}

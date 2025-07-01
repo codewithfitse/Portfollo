@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 export const Service = () => {
   
   return (
-    <section className='w-full'>
+    <section className='w-full background'>
     <Header />
     <div className="flex flex-col w-full items-center px-1">  
         <h1 className='my-[50px] font-bold text-[56px]'>Our <span className='text-[#0ef]'>Service</span></h1>

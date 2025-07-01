@@ -35,7 +35,7 @@ const Home = () => {
             </div>
             <div className="icon-box">
               <a href="https://www.tiktok.com/@codewithfitse?_t=ZM-8x4IWJnVxp8&_r=1">
-                <img src="/bxl-tiktok.svg" className="icon" alt="Git" />
+                <img src="/bxl-tiktok.svg " className="icon" alt="Git" />
               </a>
             </div>
             <div className="icon-box">
@@ -48,10 +48,10 @@ const Home = () => {
             <button className="btn">Download Coures</button>
           </div>
         </div>
-        <div className="w-auto h-auto items-center justify-items-center">
+        <div className="w-fit h-auto items-center justify-items-center">
           <img
-            src="/public/home.jpg"
-            className="w-[300px] h-[300px]"
+            src="/portfolioHeroBg.png"
+            className="w-full h-full"
             alt="Profile"
           />
         </div>
