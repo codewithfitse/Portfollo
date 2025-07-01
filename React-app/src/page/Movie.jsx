@@ -5,21 +5,21 @@ import Spinner from "./components/spinner.jsx";
 import MovieCard from "./components/MovieCard.jsx";
 //import { updateSearchCount } from "./appwrite.js";
 
-  const API_BASE_URL = "https://api.themoviedb.org/3";
+const API_BASE_URL = "https://api.themoviedb.org/3";
 
-  const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
-  console.log(API_KEY);
-  //const API_KEY ='eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmZmEyM2YyODRjZTM4NzAzMzc3Y2Q2YjI0M2ZhYjYwNSIsIm5iZiI6MTczODY5MTg5MS4zNTY5OTk5LCJzdWIiOiI2N2EyNTUzMzdlYmIwNjE0ZmYyNmMyY2EiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.bcElh67ivfozmUJYM9cRoEnvomH_GX7IaqQW5vt2Teo';
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+console.log(API_KEY);
+//const API_KEY ='eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmZmEyM2YyODRjZTM4NzAzMzc3Y2Q2YjI0M2ZhYjYwNSIsIm5iZiI6MTczODY5MTg5MS4zNTY5OTk5LCJzdWIiOiI2N2EyNTUzMzdlYmIwNjE0ZmYyNmMyY2EiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.bcElh67ivfozmUJYM9cRoEnvomH_GX7IaqQW5vt2Teo';
 
-  const API_OPTIONS = {
-    method: "GET",
-    headers: {
-      accept: "application/json",
-      Authorization: `Bearer ${API_KEY}`,
-    },
-  };
+const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization: `Bearer ${API_KEY}`,
+  },
+};
 
-const Movie = () => {
+export const Movie = () => {
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -135,5 +135,3 @@ const Movie = () => {
     </main>
   );
 };
-
-export default Movie;
