@@ -5,7 +5,6 @@ import Spinner from "./components/spinner.jsx";
 import MovieCard from "./components/MovieCard.jsx";
 //import { updateSearchCount } from "./appwrite.js";
 
-const Movie = () => {
   const API_BASE_URL = "https://api.themoviedb.org/3";
 
   const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
@@ -20,6 +19,7 @@ const Movie = () => {
     },
   };
 
+const Movie = () => {
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
 
