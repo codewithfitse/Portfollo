@@ -219,6 +219,15 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.bg-MOVIE {
+  width: 100%;
+  background: url('/hero-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: cover;
+  background-size: 100% auto;
+}
+
 .bg-HEAD {
   width: 100%;
   background: url('/newspaper.jpg');
