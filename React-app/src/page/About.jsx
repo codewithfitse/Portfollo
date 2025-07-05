@@ -3,10 +3,10 @@ import { Header } from "../componets/Header";
 
 export const About = () => {
   return (
-    <section className="w-full h-full background">
+    <section className="w-full h-full background overflow-hidden">
       <Header />
-      <div className="flex flex-col lg:flex-row justify-around items-center w-full mt-[45px] lg:mt-[90px]">
-        <div className="w-full justify-around items-center">
+      <div className="flex flex-col lg:flex-row justify-around items-center w-full mt-[45px] lg:mt-[90px] lg:px-20">
+        <div className="w-full justify-center items-center">
           <img
             src="/portfolioHeroBg.png"
             className="w-[400px] h-[400px]"
@@ -20,7 +20,7 @@ export const About = () => {
           <h2 className="text-[15px] lg:text-[32px] font-bold">
             Website disgner
           </h2>
-          <p className="w-[70%] mb-2 lg:mb-8">
+          <p className="w-[80%] mb-2 lg:mb-8">
             I am Fitsum Zerihun, I am a website developer. I have work many
             areas on information technology I have work at this area about 13
             years, 5 years at graphics designer 8 years on website developer, at
