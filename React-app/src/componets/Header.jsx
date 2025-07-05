@@ -9,7 +9,7 @@ export const Header = () => {
           Portfollo.
         </h1>
       </div>
-      <nav className="flex gap-2.5 lg:gap-8 text-[10px] lg:text-[20px]">
+      <nav className="flex pr-5 gap-2.5 lg:gap-8 text-[10px] lg:text-[20px]">
         <Link to={"/"}>
           <h1 className="text-[#0ef] text-[10px] lg:text-[20px] uppercase font-medium transition-all duration-500 hover:scale-150 hover:filter-none hover:opacity-100 animate-[slidetop_0.5s_ease_forwards]">
             Home
