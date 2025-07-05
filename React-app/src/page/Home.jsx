@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <section className="w-screen h-[100vh] background overflow-hidden">
       <Header />
-      <div className="w-full h-fit pt-16 flex flex-row mb-20 sd:flex-wrap-reverse justify-between items-center">
-        <div className="w-full h-full px-10">
+      <div className="w-full h-fit pt-16 flex flex-col-reverse lg:flex-row mb-20 sd:flex-wrap-reverse justify-between items-center">
+        <div className="w-full h-full flex flex-col justify-center items-start px-10">
           <h2 className="text-[15px] lg:text-[32px] font-bold">
             Hello, it's me
           </h2>
@@ -55,7 +55,7 @@ const Home = () => {
         <div className="w-fit h-auto items-center justify-items-center">
           <img
             src="/portfolioHeroBg.png"
-            className="w-full h-full"
+            className="w-[300px] h-fit lg:w-full lg:h-full"
             alt="Profile"
           />
         </div>
