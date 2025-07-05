@@ -207,7 +207,7 @@ body {
 
 
 
-.Headtail {
+.HeadTail {
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(159,159,168,1) 69%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
