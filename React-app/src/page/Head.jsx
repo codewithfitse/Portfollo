@@ -150,7 +150,7 @@ export const Head = () => {
           </div>
           <footer>
             <h3 className="mt-20 text-center">
-              ©Created by lil_fitse 2025-03-31{" "}
+              ©Created by lil_fitse 2025-03-31.{" "}
             </h3>
           </footer>
         </div>
