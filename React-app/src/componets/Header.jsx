@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <header className="w-full h-[70px] py-[20px] flex justify-between items-center">
-      <div className="w-full">
+    <div className="w-full h-[70px] py-[20px] flex justify-between items-center">
+      <div className="w-fit pl-10">
         <h1 className="text-[13px] lg:text-[25px] font-semibold text-white">
           Portfollo.
         </h1>
@@ -36,6 +36,6 @@ export const Header = () => {
           </h1>
         </Link>
       </nav>
-    </header>
+    </div>
   );
 };
