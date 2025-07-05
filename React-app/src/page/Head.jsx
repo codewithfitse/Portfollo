@@ -104,12 +104,14 @@ export const Head = () => {
 
   return (
     <>
-      <section className=" w-full h-[100vh] flex justify-center">
-        <div className="flex flex-col pt-[20px]">
-          <header className="flex-center mb-[20px]">
-            <h1 className="text-[100px] HeadTail font-bold">Head & Tail</h1>
-          </header>
-          <main>
+      <section className="w-full h-[100vh] flex justify-center overflow-hidden bg-gradient-to-bl from-black via-white/10 to-amber-50/70">
+        <div className="flex flex-col mt-[100px]">
+          <div className="mb-[20px]">
+            <h1 className="text-[50px] lg:text-[100px] HeadTail font-bold">
+              Head & Tail
+            </h1>
+          </div>
+          <div>
             <div className="flex-center space-x-10 mb-10">
               <button
                 id="Rock"
@@ -145,7 +147,7 @@ export const Head = () => {
                 </button>
               </div>
             </div>
-          </main>
+          </div>
           <footer>
             <h3 className="mt-20">©Created by lil_fitse 2025-03-31 </h3>
           </footer>
