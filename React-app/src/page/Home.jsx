@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section className="w-screen h-[100vh] background overflow-hidden">
       <Header />
-      <div className="w-full h-fit pl:10 lg:pl-[30px] pt-16 flex flex-row mb-20 sd:flex-wrap-reverse justify-between items-center">
+      <div className="w-full h-fit pt-16 flex flex-row mb-20 sd:flex-wrap-reverse justify-between items-center">
         <div className="w-full h-full px-10">
           <h2 className="text-[15px] lg:text-[32px] font-bold">
             Hello, it's me
@@ -16,7 +16,7 @@ const Home = () => {
           <h2 className="text-[15px] lg:text-[32px] font-bold">
             And I'm a <span className="text-[#0ef]">website developer</span>
           </h2>
-          <p className=" lg:w-[70%] text-[10px] lg:text-[18px]">
+          <p className="lg:w-[70%] text-[10px] lg:text-[18px]">
             I am professionally educated developer in the world. i have worked
             for many years in artificial intelligence & Ethiopian cyberspace..
           </p>
