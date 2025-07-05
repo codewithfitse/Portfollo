@@ -6,8 +6,9 @@ export const Project = () => {
       <div className="w-full h-[100vh] flex flex-col items-center pt-[50px] px-2 background">
         <h1 className="text-5xl font-bold">Project</h1>
         <div className="w-full grid lg:grid-cols-2 gap-5 mt-10">
-          <div className="w-full h-fit flex flex-col items-center p-5 bg-[#323946] border-2 border-[#1f242d] hover:border-[#0ef] hover:transform-scale(1.02) rounded-2xl">
-            <h1 className="text-[30px] lg:text-[40px] font-bold mb-2">
+          <div className="w-full h-fit flex flex-col items-center p-5 bg-HEAD border-2 border-[#1f242d] hover:border-[#0ef] hover:transform-scale(1.02) rounded-2xl">
+            <img src="" alt="" />
+            <h1 className="text-[30px] text-black lg:text-[40px] font-bold mb-2">
               Head & Tail
             </h1>
             <Link to={"/Head"}>
@@ -20,8 +21,8 @@ export const Project = () => {
               <button className="btn">Read More</button>
             </Link>
           </div>
-          <div className="w-full h-fit flex flex-col items-center p-5 bg-[#323946] border-2 border-[#1f242d] hover:border-[#0ef] hover:transform-scale(1.02) rounded-2xl">
-            <h1 className="text-[30px] lg:text-[40px] font-bold mb-2">
+          <div className="w-full h-fit flex flex-col items-center p-5 bg-RPS border-2 border-[#1f242d] hover:border-[#0ef] hover:transform-scale(1.02) rounded-2xl">
+            <h1 className="text-black text-[30px] lg:text-[40px] font-bold mb-2">
               Rock-Paper-scissor
             </h1>
             <Link to={"/RPS"}>
