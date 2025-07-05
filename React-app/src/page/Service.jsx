@@ -6,7 +6,7 @@ export const Service = () => {
     <section className="w-full h-full overflow-hidden background">
       <Header />
       <div className="flex flex-col w-full items-center px-1">
-        <h1 className="my-[50px] font-bold text-[30px] lg:text-[56px]">
+        <h1 className="my-[50px] font-bold text-[35px] lg:text-[56px]">
           Our <span className="text-[#0ef]">Service</span>
         </h1>
         <div className="w-full grid lg:grid-cols-2 gap-2">
