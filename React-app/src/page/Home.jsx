@@ -3,16 +3,20 @@ import { Header } from "../componets/Header";
 
 const Home = () => {
   return (
-    <section className="w-full h-[100vh] background">
+    <section className="w-screen h-[100vh] background overflow-hidden">
       <Header />
-      <div className="flex flex-row mb-20 sd:flex-wrap-reverse justify-between items-center w-auto h-fit px-[30px] pt-16">
-        <div className="w-auto h-full px-10">
-          <h2 className="text-[32px] font-bold">Hello, it's me</h2>
-          <h1 className="text-[56px] font-bold">Fitsum zerihun</h1>
-          <h2 className="text-[32px] font-bold">
+      <div className="w-full h-fit pl:10 lg:pl-[30px] pt-16 flex flex-row mb-20 sd:flex-wrap-reverse justify-between items-center">
+        <div className="w-full h-full px-10">
+          <h2 className="text-[15px] lg:text-[32px] font-bold">
+            Hello, it's me
+          </h2>
+          <h1 className="text-[15px] lg:text-[56px] font-bold">
+            Fitsum zerihun
+          </h1>
+          <h2 className="text-[15px] lg:text-[32px] font-bold">
             And I'm a <span className="text-[#0ef]">website developer</span>
           </h2>
-          <p className="w-[500px] text-[18px]">
+          <p className=" lg:w-[70%] text-[10px] lg:text-[18px]">
             I am professionally educated developer in the world. i have worked
             for many years in artificial intelligence & Ethiopian cyberspace..
           </p>

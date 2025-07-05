@@ -8,14 +8,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   color: aliceblue;
   background: #000;
 }
 
 @theme {
-  --color-lum: #0ef;
+  --color-blue: #0ef;
   --color-primary: #030014;
 
   --color-light-100: #cecefb;
@@ -59,6 +58,37 @@ body {
 
   header img {
     @apply w-full max-w-lg h-auto object-contain mx-auto drop-shadow-md;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .input {
+    @apply w-[800px] mt-[10px] bg-[#323946] p-5 rounded-2xl;
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .icon-box {
+    @apply  w-[40px] h-[40px] p-2 rounded-full bg-white shadow-[0_0_10px_#0ef] transition duration-150 ease-out flex items-center justify-center;
+  }
+  .btn {
+    @apply bg-[#0ef] text-black font-bold py-2 px-4 mt-2 rounded active:scale-[1.02] shadow-[0px_0px_10px_3px] shadow-blue transition duration-150 ease-out;
+  }
+  .btn1 {
+    @apply px-2 py-2 bg-[url(/delete.png)] rounded-2xl;
+  }
+  .btn2 {
+    @apply flex justify-center items-center w-[50px] h-[50px] px-10 py-10 bg-gray-800 rounded-[50%];
+  }
+  .img {  
+    @apply w-[40px] h-[40px] rounded-full;
+  }
+  .background {  
+    @apply w-auto h-full bg-gradient-to-br from-[#0f051d] via-[#2a043d] to-[#643e9a];
+  }
+  .loader {
+    @apply mt-6 w-[30px] h-[30px] aspect-1/2 rounded-full border-4 border-transparent border-t-gray-700  border-b-gray-700 animate-[Turn_1s_infinite];
   }
 }
 
@@ -175,38 +205,7 @@ body {
   }
 }
 
-@layer base {
-  .flex-center {
-    @apply flex justify-center items-center;
-  }
-  .input {
-    @apply w-[800px] mt-[10px] bg-[#323946] p-5 rounded-2xl;
-  }
-  .flex-center {
-    @apply flex justify-center items-center;
-  }
-  .icon-box {
-    @apply  w-[40px] h-[40px] p-2 rounded-full bg-white shadow-[0_0_10px_#0ef] transition duration-150 ease-out flex items-center justify-center;
-  }
-  .btn {
-    @apply bg-[#0ef] text-black font-bold py-2 px-4 mt-2 rounded active:scale-[1.02] shadow-[0px_0px_10px_3px] shadow-blue transition duration-150 ease-out;
-  }
-  .btn1 {
-    @apply px-2 py-2 bg-[url(/delete.png)] rounded-2xl;
-  }
-  .btn2 {
-    @apply flex justify-center items-center w-[50px] h-[50px] px-10 py-10 bg-gray-800 rounded-[50%];
-  }
-  .img {  
-    @apply w-[40px] h-[40px] rounded-full;
-  }
-  .background {  
-    @apply min-h-screen bg-gradient-to-br from-[#0f051d] via-[#2a043d] to-[#643e9a];
-  }
-  .loader {
-    @apply mt-6 w-[30px] h-[30px] aspect-1/2 rounded-full border-4 border-transparent border-t-gray-700  border-b-gray-700 animate-[Turn_1s_infinite];
-  }
-}
+
 
 .Headtail {
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(159,159,168,1) 69%);
@@ -295,7 +294,6 @@ body {
   background-size: 100% auto;
 }
 
-
 .HeadBtn {
   width: 100px;
   height: 100px;
@@ -318,15 +316,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
-}
-
-
-
-
-@theme {
-  /* ... */
-
-  --color-blue: #0ef;
 }
 
 @keyframes Turn {to{transform: rotate(.5turn)}}
