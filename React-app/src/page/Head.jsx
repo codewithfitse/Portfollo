@@ -104,10 +104,10 @@ export const Head = () => {
 
   return (
     <>
-      <section className="w-full h-[100vh] flex justify-center overflow-hidden bg-gradient-to-bl from-black via-white/10 to-amber-50/70">
-        <div className="flex flex-col mt-[100px]">
+      <section className="w-full h-full flex justify-center overflow-hidden bg-HEAD">
+        <div className="w-full h-full bg-black/20 backdrop-blur-[3px] flex flex-col py-[100px]">
           <div className="mb-[20px]">
-            <h1 className="text-[50px] lg:text-[100px] HeadTail font-bold">
+            <h1 className="text-[70px] lg:text-[100px] HeadTail font-bold">
               Head & Tail
             </h1>
           </div>
@@ -127,7 +127,7 @@ export const Head = () => {
                 onClick={() => playGame("Tail")}
               ></button>
             </div>
-            <div className="flex-center flex-col">
+            <div className="text-[30px] font-bold flex-center flex-col">
               <p
                 id="js-result"
                 onChange={() => updateScore()}
