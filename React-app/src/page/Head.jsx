@@ -112,7 +112,7 @@ export const Head = () => {
             </h1>
           </div>
           <div>
-            <div className="flex-center space-x-10 mb-10">
+            <div className="flex-center space-x-10 my-5 lg:my-10">
               <button
                 id="Rock"
                 className="HeadBtn"
@@ -149,7 +149,9 @@ export const Head = () => {
             </div>
           </div>
           <footer>
-            <h3 className="mt-20">©Created by lil_fitse 2025-03-31 </h3>
+            <h3 className="mt-20 text-center">
+              ©Created by lil_fitse 2025-03-31{" "}
+            </h3>
           </footer>
         </div>
       </section>
