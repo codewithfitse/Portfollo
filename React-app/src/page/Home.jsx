@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             <div className="icon-box">
               <a href="WWW.linkedin.com/in/fitsum-zerihun-89aab02a9">
-                <i className="fa fa-linkedin !text-[26px] text-blue-600"></i>
+                <i className="fa fa-linkedin !text-[26px] text-blue"></i>
               </a>
             </div>
 
@@ -44,7 +44,7 @@ const Home = () => {
             </div>
             <div className="icon-box">
               <a href="https://x.com/lil_fitse?t=cmxfDqpAWbK_l75aeqygzg&s=09">
-                <i className="fa fa-twitter !text-[26px] text-blue-600"></i>
+                <i className="fa fa-twitter !text-[26px] text-blue"></i>
               </a>
             </div>
           </div>

@@ -7,10 +7,10 @@ export const Service = () => {
       <Header />
       <div className="flex flex-col w-full items-center px-1">
         <h1 className="my-[50px] font-bold text-[35px] lg:text-[56px]">
-          Our <span className="text-[#0ef]">Service</span>
+          Our <span className="text-blue">Service</span>
         </h1>
         <div className="w-full mb-10 grid lg:grid-cols-2 gap-2">
-          <div className="w-fit lg:w-full flex flex-1 flex-col items-center border-2 border-[#1f242d] rounded-2xl p-10 bg-[#323946] hover:border-[#0ef] hover:transform-scale(1.02)">
+          <div className="w-fit lg:w-full flex flex-1 flex-col items-center border-2 border-[#1f242d] rounded-2xl p-10 bg-[#323946] hover:border-blue hover:transform-scale(1.02)">
             <h2 className="text-[30px] lg:text-[40px] font-bold mb-2">
               Web Development
             </h2>
@@ -22,7 +22,7 @@ export const Service = () => {
               <button className="btn">Read More</button>
             </Link>
           </div>
-          <div className="w-full flex flex-col  items-center border-2 border-[#1f242d] rounded-2xl p-6 bg-[#323946] hover:border-[#0ef] hover:transform-scale(1.02)">
+          <div className="w-full flex flex-col  items-center border-2 border-[#1f242d] rounded-2xl p-6 bg-[#323946] hover:border-blue hover:transform-scale(1.02)">
             <h2 className="text-[30px] lg:text-[40px] font-bold mb-2">
               Graphic design
             </h2>
@@ -34,7 +34,7 @@ export const Service = () => {
               <button className="btn">Read More</button>
             </Link>
           </div>
-          <div className="w-full flex flex-1 flex-col items-center border-2 border-[#1f242d] rounded-2xl p-6 bg-[#323946] hover:border-[#0ef] hover:transform-scale(1.02)">
+          <div className="w-full flex flex-1 flex-col items-center border-2 border-[#1f242d] rounded-2xl p-6 bg-[#323946] hover:border-blue hover:transform-scale(1.02)">
             <h2 className="text-[30px] lg:text-[40px] font-bold mb-2">
               Digital Marketing
             </h2>
