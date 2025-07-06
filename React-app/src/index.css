@@ -39,7 +39,6 @@ body {
     font-optical-sizing: auto;
     background: #030014;
   }
-
   h1 {
     @apply mx-auto max-w-4xl text-center text-5xl font-bold leading-tight tracking-[-1%] text-white sm:text-[64px] sm:leading-[76px];
   }
@@ -59,12 +58,11 @@ body {
   header img {
     @apply w-full max-w-lg h-auto object-contain mx-auto drop-shadow-md;
   }
-
   .flex-center {
     @apply flex justify-center items-center;
   }
   .input {
-    @apply w-[800px] mt-[10px] bg-[#323946] p-5 rounded-2xl;
+    @apply w-full lg:w-[800px] mt-[10px] bg-[#323946] p-5 rounded-2xl;
   }
   .flex-center {
     @apply flex justify-center items-center;
