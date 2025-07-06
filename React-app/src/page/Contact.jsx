@@ -46,7 +46,7 @@ export const Contact = () => {
   }
 
   return (
-    <section className="w-full h-auto overflow-hidden background">
+    <section className="w-full min-h-screen overflow-hidden background">
       <Header />
       <div className="w-full h-full flex flex-col items-center">
         <h1 className="my-[30px] text-[56px] font-bold">
