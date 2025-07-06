@@ -127,7 +127,7 @@ export const RPS = () => {
 
   return (
     <>
-      <div className="w-full h-[100vh] overflow-hidden bg-RPS">
+      <div className="w-full h-[100vh] overflow-hidden bg-RPS ">
         <div className="w-full h-full flex justify-center bg-black/30 backdrop-blur-[5px]">
           <div className=" mt-5 w-fit h-fit p-10 bg-black/50 backdrop-blur-[5px] space-y-4 rounded-2xl">
             <h1 className="text-[30px] lg:text-[60px] font-bold text-center">
