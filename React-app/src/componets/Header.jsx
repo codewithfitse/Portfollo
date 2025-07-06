@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <div className="w-full h-[70px] py-[20px] flex justify-between items-center">
+    <div className="w-full h-[80px] py-[20px] flex justify-between items-center">
       <div className="w-fit pl-10">
         <h1 className="text-[13px] lg:text-[25px] font-semibold text-white">
           Portfollo.

@@ -10,9 +10,9 @@ const Home = () => {
           <h2 className="text-[15px] lg:text-[32px] font-bold">
             Hello, it's me
           </h2>
-          <h1 className="text-[15px] lg:text-[56px] font-bold">
+          <h3 className="text-[15px] lg:text-[56px] font-bold">
             Fitsum zerihun
-          </h1>
+          </h3>
           <h2 className="text-[15px] lg:text-[32px] font-bold">
             And I'm a <span className="text-[#0ef]">website developer</span>
           </h2>
