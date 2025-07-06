@@ -15,7 +15,7 @@ export const About = () => {
         </div>
         <div className="w-full flex flex-col items-center justify-center my-1 lg:my-0 gap-3 sideRight">
           <h1 className="text-[30px] lg:text-[56px] font-bold">
-            About <span className="text-[#0ef]">Me</span>
+            About <span className="text-blue">Me</span>
           </h1>
           <h2 className="text-[15px] lg:text-[32px] font-bold">
             Website disgner
