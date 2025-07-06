@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section className="w-screen h-[100vh] background overflow-hidden">
       <Header />
-      <div className="w-full h-fit pt-16 flex flex-col-reverse lg:flex-row mb-20 sd:flex-wrap-reverse justify-between items-center">
+      <div className="w-full h-fit pt-16 px-10 flex flex-col-reverse lg:flex-row mb-20 sd:flex-wrap-reverse justify-between items-center">
         <div className="w-full h-full flex flex-col justify-center items-start px-10">
           <h2 className="text-[15px] lg:text-[32px] font-bold">
             Hello, it's me
@@ -48,7 +48,7 @@ const Home = () => {
               </a>
             </div>
           </div>
-          <div className="wrapper">
+          <div className="w-full h-full mt-5">
             <button className="btn">Download Coures</button>
           </div>
         </div>
