@@ -146,12 +146,19 @@ export const Head = () => {
                   Auto play
                 </button>
               </div>
+<<<<<<< HEAD
               git branch -a
+=======
+>>>>>>> Branch1
             </div>
           </div>
           <footer>
             <h3 className="mt-20 text-center">
+<<<<<<< HEAD
               ©Created by lil_fitse 2025-03-31{" "}
+=======
+              ©Created by lil_fitse 2025-03-31.{" "}
+>>>>>>> Branch1
             </h3>
           </footer>
         </div>
