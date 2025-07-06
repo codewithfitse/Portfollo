@@ -105,7 +105,7 @@ export const Head = () => {
   return (
     <>
       <section className="w-full h-full flex justify-center overflow-hidden bg-HEAD">
-        <div className="w-full h-full bg-black/20 backdrop-blur-[3px] flex flex-col py-[100px]">
+        <div className="w-full h-full bg-black/80 backdrop-blur-[3px] flex flex-col py-[100px]">
           <div className="mb-[20px]">
             <h1 className="text-[70px] lg:text-[100px] HeadTail font-bold">
               Head & Tail
