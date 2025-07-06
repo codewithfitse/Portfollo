@@ -17,6 +17,7 @@
     "react-app": "file:",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.4.0",
+    "react-use": "^17.6.0",
     "router": "^2.1.0"
   },
   "devDependencies": {
