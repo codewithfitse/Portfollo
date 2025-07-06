@@ -46,9 +46,9 @@ export const Contact = () => {
   }
 
   return (
-    <section className="w-full h-screen background">
+    <section className="w-full h-auto overflow-hidden background">
       <Header />
-      <div className="flex flex-col items-center">
+      <div className="w-full h-full flex flex-col items-center">
         <h1 className="my-[30px] text-[56px] font-bold">
           Contact <span className="text-[#0ef]">Me</span>
         </h1>
