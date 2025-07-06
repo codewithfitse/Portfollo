@@ -13,7 +13,7 @@ export const About = () => {
             alt="Profile"
           />
         </div>
-        <div className="w-full flex flex-col items-center justify-center my-5 lg:my-0 gap-3 sideRight">
+        <div className="w-full flex flex-col items-center justify-center my-1 lg:my-0 gap-3 sideRight">
           <h1 className="text-[30px] lg:text-[56px] font-bold">
             About <span className="text-[#0ef]">Me</span>
           </h1>
@@ -27,8 +27,7 @@ export const About = () => {
             this time I have experienced a lot of programming languages
             java,c+,c++,photon, now I am working at NASA space company
           </p>
-
-          <button className="btn my-[10px] lg:my-[30px]">Read More</button>
+          <button className="btn my-[10px] lg:my-[1px]">Read More</button>
         </div>
       </div>
     </section>
