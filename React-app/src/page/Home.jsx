@@ -49,7 +49,7 @@ const Home = () => {
             </div>
           </div>
           <div className="w-full h-full mt-5">
-            <button className="btn">Download Coures</button>
+            <button className="btn">Download Coures.</button>
           </div>
         </div>
         <div className="w-fit h-auto items-center justify-items-center">
