@@ -1,4 +1,4 @@
-😊 Fitsum’s React Portfolio & Fun Starter Kit 
+😊 Fitsum’s React Portfolio & Fun Starter Kit.
 
 Welcome to a cozy corner of code crafted by Fitsum Zerihun—13 years deep in IT wizardry, now orbiting at NASA! This isn’t just another boilerplate; it’s a vibrant playground designed to showcase your talent, tinker freely, and ship delightful web experiences.
 
