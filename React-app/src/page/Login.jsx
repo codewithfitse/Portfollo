@@ -1,4 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
+import { Header } from "../componets/Header";
 
 const Login = () => {
   const [login, setLogin] = useState([]);
@@ -24,8 +25,9 @@ const Login = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4">
-      <div className="bg-zinc-900 p-6 rounded-xl max-w-sm w-full space-y-6 shadow-lg">
+    <div className="flex flex-col items-center min-h-screen p-4 background overflow-hidden">
+      <Header />
+      <div className="bg-zinc-900 p-6 mt-10 lg:mt-2 rounded-xl max-w-sm w-full space-y-6 shadow-lg">
         <div>
           <h2 className="text-2xl font-bold">Create an account</h2>
           <p className="text-sm text-zinc-400 mt-1">
