@@ -3,7 +3,7 @@ import { Header } from "../componets/Header";
 
 export const About = () => {
   return (
-    <section className="w-full min-h-screen background overflow-hidden">
+    <section className="w-full min-h-screen background overflow-hidden ">
       <Header />
       <div className="h-full w-full pb-10 mt-[30px] lg:mt-[60px] lg:px-20 flex flex-col lg:flex-row justify-center items-center">
         <div className="w-full justify-center items-center">
