@@ -15,7 +15,7 @@ export const Project = () => {
               <button className="btn">Read More</button>
             </Link>
           </div>
-          <div className="w-full h-fit flex flex-col items-center p-5 bg-[#323946] border-2 border-[#1f242d] hover:border-blue hover:transform-scale(1.02) rounded-2xl">
+          <div className="w-full h-fit flex flex-col items-center p-5 bg-todo border-2 border-[#1f242d] hover:border-blue hover:transform-scale(1.02) rounded-2xl">
             <h1 className="text-[30px] lg:text-[40px] font-bold mb-2">Todos</h1>
             <Link to={"/Todo"}>
               <button className="btn">Read More</button>
@@ -38,7 +38,7 @@ export const Project = () => {
             </Link>
           </div>
           <div className="w-full h-fit flex flex-col items-center p-5 bg-Expense border-2 border-[#1f242d] hover:border-blue hover:transform-scale(1.02) rounded-2xl">
-            <h1 className="text-[30px] lg:text-[40px] font-bold mb-2">
+            <h1 className="text-black text-[30px] lg:text-[40px] font-bold mb-2">
               Expense Tracker
             </h1>
             <Link to={"https://expense-tracker-rose-omega.vercel.app"}>
