@@ -37,6 +37,22 @@ export const Project = () => {
               <button className="btn">Read More</button>
             </Link>
           </div>
+          <div className="w-full h-fit flex flex-col items-center p-5 bg-MOVIE border-2 border-[#1f242d] hover:border-blue hover:transform-scale(1.02) rounded-2xl">
+            <h1 className="text-[30px] lg:text-[40px] font-bold mb-2">
+              Expense Tracker
+            </h1>
+            <Link to={"https://expense-tracker-rose-omega.vercel.app"}>
+              <button className="btn">Read More</button>
+            </Link>
+          </div>
+          <div className="w-full h-fit flex flex-col items-center p-5 bg-MOVIE border-2 border-[#1f242d] hover:border-blue hover:transform-scale(1.02) rounded-2xl">
+            <h1 className="text-[30px] lg:text-[40px] font-bold mb-2">
+              Weather Api
+            </h1>
+            <Link to={"https://weather-app-pied-omega-79.vercel.app"}>
+              <button className="btn">Read More</button>
+            </Link>
+          </div>
         </div>
       </div>
     </>
