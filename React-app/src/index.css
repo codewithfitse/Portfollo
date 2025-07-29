@@ -226,6 +226,24 @@ body {
   background-size: 100% auto;
 }
 
+.bg-Expense {
+  width: 100%;
+  background: url('/Expense.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: cover;
+  background-size: 100% auto;
+}
+
+.bg-Weather {
+  width: 100%;
+  background: url('/Weather.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: cover;
+  background-size: 100% auto;
+}
+
 .bg-HEAD {
   width: 100%;
   background: url('/newspaper.jpg');
