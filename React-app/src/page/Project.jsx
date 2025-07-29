@@ -33,7 +33,7 @@ export const Project = () => {
             <h1 className="text-[30px] lg:text-[40px] font-bold mb-2">
               Movie Fetching!
             </h1>
-            <Link to={"/Movie"}>
+            <Link to={"/https://movies-search-web-r8ah.vercel.app"}>
               <button className="btn">Read More</button>
             </Link>
           </div>
